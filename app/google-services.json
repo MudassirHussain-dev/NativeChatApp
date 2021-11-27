@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485321252380",
+    "project_id": "chatapp-fa460",
+    "storage_bucket": "chatapp-fa460.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485321252380:android:8bee8b7f4b09dd37aa49d9",
+        "android_client_info": {
+          "package_name": "dev.hmh.chatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485321252380-spaduebt415m5ss4eagrgjpsqm8mkufu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFXaJBoFv0SDgrbU20RE7zDYD40E66C8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485321252380-spaduebt415m5ss4eagrgjpsqm8mkufu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
