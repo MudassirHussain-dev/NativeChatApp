@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 arrUsers.clear();
-                for (DataSnapshot dataSnapshot1 : snapshot.getChildren()) {
-                    User user = dataSnapshot1.getValue(User.class);
+                for (DataSnapshot snapshot1 : snapshot.getChildren()) {
+                    User user = snapshot1.getValue(User.class);
                     arrUsers.add(user);
                 }
                 userAdapter.notifyDataSetChanged();

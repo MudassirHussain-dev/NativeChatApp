@@ -6,13 +6,13 @@
     android:layout_height="wrap_content"
     android:padding="5dp">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/txtUserImage"
         android:layout_width="32dp"
         android:layout_height="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/avatar" />
+        android:src="@drawable/avatar" />
 
     <TextView
         android:id="@+id/txtName"
