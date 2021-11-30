@@ -3,13 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/drawable/bd_sentmessage.xml" value="0.3415" />
+        <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/drawable/bg_receivedmessage.xml" value="0.3415" />
+        <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/drawable/circle_green.xml" value="0.3415" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/drawable/et_outline.xml" value="0.2985" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/drawable/ic_left_arrow.xml" value="0.2985" />
+        <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/drawable/ic_video.xml" value="0.3415" />
+        <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/layout/activity_chat.xml" value="0.36666666666666664" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/layout/activity_otpactivity.xml" value="0.36666666666666664" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/layout/activity_phone_number.xml" value="0.358695652173913" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/layout/activity_setup_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/layout/row_conversations.xml" value="0.5" />
+        <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/layout/row_received_message.xml" value="0.67" />
+        <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/layout/row_sent_message_layout.xml" value="1.0" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
         <entry key="..\:/11_24_2021/ChatsApp/app/src/main/res/menu/topmenu.xml" value="0.36666666666666664" />
       </map>

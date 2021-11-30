@@ -13,14 +13,17 @@
         android:theme="@style/Theme.ChatsApp"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".SetupProfileActivity"
+            android:name=".activities.ChatActivity"
             android:exported="false" />
         <activity
-            android:name=".OTPActivity"
+            android:name=".activities.SetupProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OTPActivity"
             android:exported="true"
             android:windowSoftInputMode="stateVisible" />
         <activity
-            android:name=".PhoneNumberActivity"
+            android:name=".activities.PhoneNumberActivity"
             android:exported="true"
             android:windowSoftInputMode="stateVisible">
             <intent-filter>
@@ -30,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true" />
 
         <meta-data

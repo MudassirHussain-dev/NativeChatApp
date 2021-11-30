@@ -1,4 +1,4 @@
-package dev.hmh.chatsapp;
+package dev.hmh.chatsapp.models;
 
 public class User {
     private String uid,name,phoneNumber,profileImage;

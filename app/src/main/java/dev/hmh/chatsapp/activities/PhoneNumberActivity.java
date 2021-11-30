@@ -1,4 +1,4 @@
-package dev.hmh.chatsapp;
+package dev.hmh.chatsapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

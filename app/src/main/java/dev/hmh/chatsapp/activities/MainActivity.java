@@ -1,4 +1,4 @@
-package dev.hmh.chatsapp;
+package dev.hmh.chatsapp.activities;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
@@ -14,6 +15,9 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
+import dev.hmh.chatsapp.R;
+import dev.hmh.chatsapp.models.User;
+import dev.hmh.chatsapp.adapters.UserAdapter;
 import dev.hmh.chatsapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,8 +44,16 @@ public class MainActivity extends AppCompatActivity {
                 arrUsers.clear();
                 for (DataSnapshot snapshot1 : snapshot.getChildren()) {
                     User user = snapshot1.getValue(User.class);
+
                     arrUsers.add(user);
                 }
+                for (int i = 0; i < arrUsers.size(); i++) {
+                    if (FirebaseAuth.getInstance().getUid().equals(arrUsers.get(i).getUid())) {
+                        arrUsers.remove(i);
+                    }
+                }
+
+
                 userAdapter.notifyDataSetChanged();
             }
 
